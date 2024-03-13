@@ -1,0 +1,107 @@
+/* Navbar - background color */
+.custom-navbar {
+  background-color: rgba(223, 193, 61);
+}
+
+/* Navbar styling */
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Salina, serif;
+  color: rgb(185, 37, 37);
+  border-radius: 1rem;
+  padding: 10px;
+}
+
+/* Navbar styling when mouse hover */
+.navbar-brand:hover {
+  color: rgb(255, 254, 254);
+}
+
+/* Gallery, about links */
+.nav-link {
+  font-size: 20px;
+  font-family: Salina, serif;
+  color: rgb(185, 37, 37);
+}
+
+/* Gallery, about links when mouse hover */
+.nav-link:hover {
+  color: white;
+}
+
+/* Background Image */
+.background {
+  height: 100vh;
+  background-size: auto;
+  background-position: center;
+  background-repeat: initial;
+}
+
+/* What we offer - header */
+#subTitletext {
+  text-align: center;
+  font-size: 3em;
+  font-family: Salina, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/* Features Header */
+.main-feature {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+}
+
+/* Feature text */
+.feature-text {
+  text-align: center;
+  font-size: 1.5em;
+  color: rgb(238, 231, 231);
+}
+
+/* Feature container */
+.FeatureBox {
+  background-color: rgba(65, 63, 59, 0.9);
+  padding: 5em 5em 0 5em;
+}
+
+/* Feature icons */
+.feature-icon {
+  border-radius: 20%;
+  background-color: rgba(223, 193, 61, 0.1);
+  padding: 0.5em;
+  margin-left: 0.5em;
+}
+
+@media screen and (max-width: 512px) {
+  /* Feature container */
+  .FeatureBox {
+    padding: 5em 0 0 0;
+  }
+
+  /* What we offer - header */
+  #subTitletext {
+    text-align: left;
+    margin: 2em 5em 0 1em;
+    font-size: 2.2em;
+  }
+
+  /* Features Header */
+  .main-feature {
+    text-align: left;
+    font-size: 2em;
+    margin: 2em 0 0 0.5em;
+  }
+
+  /* Feature text */
+  .feature-text {
+    text-align: left;
+    margin: 2em 0 0 0.5em;
+    font-size: 1.5em;
+  }
+  .feature-icon{
+    position: relative;
+    top: 3em;
+  }
+}
